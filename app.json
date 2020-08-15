@@ -1,0 +1,12 @@
+{
+  "name": "GsquadTodo",
+  "displayName": "GsquadTodo",
+  "expo": {
+    "name": "GsquadTodo",
+    "slug": "GsquadTodo",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

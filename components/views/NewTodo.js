@@ -22,6 +22,8 @@ export default NewTodo = () => {
         onChangeText={(value) => onChangeText(value)}
         placeholder="Add a new task to the todo..."
         placeholderTextColor="gray"
+        allowFontScaling
+        multiline
       />
       <TouchableOpacity onPress={saveTodo}>
         <MaterialIcons
@@ -54,6 +56,6 @@ const styles = StyleSheet.create({
   title: {
     fontSize: 18,
     color: "black",
-    padding: 3
+    padding: 0,
   },
 });

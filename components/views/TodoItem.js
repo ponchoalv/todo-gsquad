@@ -18,6 +18,7 @@ export default TodoItem = ({ completed, id, text }) => {
         onChangeText={(value) =>
           dispatch({ type: "UPDATE_EDITED_TEXT", value })
         }
+        multiline
         autoFocus
       />
       <EditModeButtons id={id} text={text} />
